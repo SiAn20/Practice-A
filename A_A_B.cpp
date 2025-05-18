@@ -2,7 +2,7 @@
 using namespace std;
 
 long long solve(long long a, long long b) {
-    return a + b; // Ejemplo de operación
+    return a + b;
 }
 int main() {
     long long a, b;
