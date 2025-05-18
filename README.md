@@ -80,7 +80,7 @@ You are given all numbers between \(1, 2, ..., n\) except one. Your task is to f
 - The first input line contains an integer \(n\).
 - The second line contains \(n-1\) numbers. Each number is distinct and between \(1\) and \(n\) (inclusive).
 
-**Constraints**: \(2 <= n <= 2*10^5\).
+**Constraints**: \(2 <= n <= 2\*10^5\).
 
 **Output:**
 
@@ -92,6 +92,73 @@ You are given all numbers between \(1, 2, ..., n\) except one. Your task is to f
 Input:
 5
 2 3 1 5
+
+Output:
+4
+```
+
+</details>
+<details>
+<summary><h2>D - Hamming Distance</h2></summary>
+
+You are given a positive integer N and two strings S and T, each of length N and consisting of lowercase English letters.
+
+Find the Hamming distance between S and T. That is, find the number of integers i such that the 1<=i<=N and the i-th character of S is different from the i-th character of T.
+
+**Constraints**
+
+- 1 <= N <= 100
+- N is an integer
+- Each of S and T is a of legth N consisting of lowercase English letters.
+
+**Input:**  
+The input is given from Standard Input in the following format:
+
+- N
+- S
+- T
+
+**Output:**
+
+- Print the Hamming distance.
+
+**Examples:**
+
+```plaintext 1
+Input:
+6
+abcarc
+agcahc
+
+Output:
+2
+```
+
+```plaintext 2
+Input:
+7
+atcoder
+contest
+
+Output:
+7
+```
+
+```plaintext 3
+Input:
+8
+chokudai
+chokudai
+
+Output:
+0
+```
+
+```plaintext 4
+Input:
+10
+vexknuampx
+vzxikuamlx
 
 Output:
 4
