@@ -229,22 +229,40 @@ NO
 </details>
 
 <details>
-<summary><h2></h2></summary>
+<summary><h2>G - Pro Bending</h2></summary>
+Avatar Korma is competing in Republic City's latest pro bending tournament, but isn't sure if she can manage to come out on top. Thankfully, due to her intel, she has accurate ELO level that indicate how strong her team and all other teams competing in the pro bending tournament are. Each team, including Korma's, has a distinct ELO level and a team with a higher ELO level will always defeat a team with a lower ELO level.
+
+The tournament will proceed in a single-elimination format, which will continue until all teams except one are eliminated.
+
+Korma wants to know if she can expect to win the tournament or not, so you need to write a computer program to calculate this for her. Korma will always be able to determine if she will win or lose the tournament given this accurate intel. Print out `Easy Win!` if Avatar Korma will win the tournament and print out out `Difficult Loss` otherwise.
 
 **Input:**
 
+- The first line will consist of a two integers n (1≤n≤10^3) and k (1≤k≤10^5), which give the number of competing teams (not including Korma's) and Avatar Korma's ELO level, respectively. The next line consists of n integers where the ith integer ei gives the ELO level of the ELO level of the ith team (1≤ei≤10^5).
+
 **Output:**
+
+- Print `Easy Win!` if Avatar Korma will win the tournament and `Difficult Loss` otherwise.
 
 **Examples:**
 
 ```plaintext
 Input:
+3 4
+1 2 3
 
 Output:
-
+Easy Win!
 ```
 
-**Note**
+```plaintext
+Input:
+5 5
+1 4 3 8 2
+
+Output:
+Difficult Loss
+```
 
 </details>
 <details>
