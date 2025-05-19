@@ -9,13 +9,10 @@ void solve(){
         cin >> e;
         if(e>k){
             cout << "Difficult Loss";
-            break;
-        }
-        if(e<k && i==(n-1)){
-            cout << "Easy Win!";
+            return;
         }
     }
-
+    cout << "Easy Win!";
 }
 
 signed main (){

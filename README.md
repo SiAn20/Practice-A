@@ -318,21 +318,51 @@ Output:
 </details>
 
 <details>
-<summary><h2></h2></summary>
+<summary><h2>I - Shohag Loves Strings</h2></summary>
+
+For a string , let `f(p)` be the number of distinct non-empty substrings of p.
+
+Shohag has a string s. Help him find a non-empty string such p that is a substring of s and `f(p)` is even or state that no such string exists.
+
+A string is a substring of a string if can be obtained from by deletion of several (possibly, zero or all) characters from the beginning and several (possibly, zero or all) characters from the end.
 
 **Input:**
 
+- The first line contains a single integer t (1≤t≤10^4) — the number of test cases.
+- The first and only line of each test case contains a string s (1≤|s|≤10^5) consisting of lowercase English letters.
+- It is guaranteed that the sum of the length of over all test cases doesn't exceed (3\*10^5)
+
 **Output:**
+
+- For each test case, print a non-empty string that satisfies the conditions mentioned in the
+  statement, or -1 if no such string exists. If there are multiple solutions, output any.
 
 **Examples:**
 
 ```plaintext
 Input:
+5
+dcabaac
+a
+youknowwho
+codeforces
+bangladesh
 
 Output:
-
+abaa
+-1
+youknowwho
+eforce
+bang
 ```
 
 **Note**
+
+In the first test case, we can set `p = abaa` because it is a substring of and the distinct nonempty substrings of are a, b, aa, ab, ba, aba, baa and abaa, so it has a total of distinct
+substrings which is even.
+
+In the second test case, we can only set `p = a` but it has one distinct non-empty substring but this number is odd, so not valid.
+
+In the third test case, the whole string contains 52 distinct non-empty substrings, so the string itself is a valid solution.
 
 </details>
